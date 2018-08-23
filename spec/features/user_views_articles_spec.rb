@@ -4,7 +4,6 @@ feature "User views articles", %(
   As a slacker
   I want to be able to visit a page that shows me all the submitted articles
   So that I can distract myself from the actual work I have to do
-
   [x] When I visit /articles I should be able to see all the articles that have been submitted.
   [x] Each article should show the description, title, and URL.
   [x] If I click on the URL it should take me to the relevant page inside of a new tab.
