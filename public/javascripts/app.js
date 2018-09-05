@@ -18,13 +18,6 @@ let body = document.getElementById("content_area");
    let bodyParsed = JSON.parse(body);
    console.log("The body of the response from the fetch call:")
    console.log (bodyParsed);
-   // let element = document.getElementById('books');
-   // bodyParsed["books"].forEach((bookObj) => {
-   //   let newListItem = document.createElement('li');
-   //   newListItem.appendChild(document.createTextNode(bookObj.name));
-   //   // newListItem.appendChild(document.createTextNode(bookObj[“name”]));
-   //   element.appendChild(newListItem);
-   // });
  })
    .catch(error => console.error(`Error in fetch: ${error.message}`));
  })
