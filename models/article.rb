@@ -7,4 +7,5 @@ class Article
     @description = description
     @url = url
   end
+  
 end
